@@ -7,17 +7,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
-<title>Archives: 2019/10 - Hexo</title>
+<title>装系统 - Hexo</title>
 
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://Jennifer1335.github.io/archives/2019/10/index.html">
+    <meta name="description" content="整理不知道的知识点：">
+<meta property="og:type" content="article">
+<meta property="og:title" content="装系统">
+<meta property="og:url" content="http://Jennifer1335.github.io/2019/10/04/new2/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="整理不知道的知识点：">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://jennifer1335.github.io/images/og_image.png">
+<meta property="og:updated_time" content="2019-10-03T19:23:32.329Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="装系统">
+<meta name="twitter:description" content="整理不知道的知识点：">
 <meta name="twitter:image" content="http://jennifer1335.github.io/images/og_image.png">
 
 
@@ -76,7 +80,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/images/logo.svg" alt="Hexo" height="28">
+                <img src="/images/logo.svg" alt="装系统" height="28">
             
             </a>
         </div>
@@ -126,30 +130,133 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-8-tablet is-8-desktop is-6-widescreen has-order-2 column-main">
-
-<div class="card widget">
-    <div class="card-content">
-        <h3 class="tag is-link">
-        October 2019
-        </h3>
-        <div class="timeline">
+<div class="card">
+    
+    <div class="card-content article ">
         
-            <article class="media">
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2019-10-03T19:22:06.000Z">2019-10-04</time>
                 
-                <div class="media-content">
-                    <div class="content">
-                        <time class="has-text-grey is-size-7 is-block is-uppercase" datetime="2019-10-03T19:22:06.000Z">2019-10-04</time>
-                        <a href="/2019/10/04/new2/" class="title has-link-black-ter is-size-6 has-text-weight-normal">装系统</a>
-                        <div class="level article-meta is-mobile">
-                            <div class="level-left">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    9 minutes read (About 1370 words)
+                </span>
+                
+                
+            </div>
         </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                装系统
+            
+        </h1>
+        <div class="content">
+            <h1 id="整理不知道的知识点："><a href="#整理不知道的知识点：" class="headerlink" title="整理不知道的知识点："></a>整理不知道的知识点：</h1><a id="more"></a>
+<ul>
+<li>镜像：<br>“镜像（Mirroring）是冗余的一种类型，一个磁盘上的数据在另一个磁盘上存在一个完全相同的副本即为镜像。镜像是一种文件存储形式，可以把许多文件做成一个镜像文件，与GHOST等程序放在一个盘里用GHOST等软件打开后，又恢复成许多文件，RAID 1和RAID 10使用的就是镜像。常见的镜像文件格式有ISO、BIN、IMG、TAO、DAO、CIF、FCD。”</li>
+</ul>
+<p>“所谓镜像文件其实和ZIP压缩包类似，它将特定的一系列文件按照一定的格式制作成单一的文件，以方便用户下载和使用，例如一个测试版的操作系统、游戏等。镜像文件不仅具有ZIP压缩包的“合成”功能，它最重要的特点是可以被特定的软件识别并可直接刻录到光盘上。其实通常意义上的镜像文件可以再扩展一下，在镜像文件中可以包含更多的信息。比如说系统文件、引导文件、分区表信息等，这样镜像文件就可以包含一个分区甚至是一块硬盘的所有信息。使用这类镜像文件的经典软件就是Ghost，它同样具备刻录功能，不过它的刻录仅仅是将镜像文件本身保存在光盘上，而通常意义上的刻录软件都可以直接将支持的镜像文件所包含的内容刻录到光盘上。”<br>（参考百度百科：<a href="https://baike.baidu.com/item/%E9%95%9C%E5%83%8F/1574" target="_blank" rel="noopener">https://baike.baidu.com/item/%E9%95%9C%E5%83%8F/1574</a> ）<br>*</p>
+<h1 id="chenXX教的流程："><a href="#chenXX教的流程：" class="headerlink" title="chenXX教的流程："></a>chenXX教的流程：</h1><ol>
+<li>下win10镜像（1809最好）</li>
+<li>下载winpe</li>
+<li>用winpe格式化U盘</li>
+<li>拖镜像到U盘</li>
+<li>开机一直按F2/DEL</li>
+<li>将启动项的U盘放第一位</li>
+<li>保存重启</li>
+<li>装系统前要把C盘格式化</li>
+<li>割盘不能将SSD和机械放一起</li>
+</ol>
+<h2 id="教程链接"><a href="#教程链接" class="headerlink" title="教程链接"></a>教程链接</h2><ol>
+<li><a href="https://www.bilibili.com/video/av62658397?from=search&amp;seid=5604355155910541367" target="_blank" rel="noopener">https://www.bilibili.com/video/av62658397?from=search&amp;seid=5604355155910541367</a> (学会数据备份)</li>
+<li><a href="https://www.bilibili.com/video/av21059881/?spm_id_from=333.788.videocard.0" target="_blank" rel="noopener">https://www.bilibili.com/video/av21059881/?spm_id_from=333.788.videocard.0</a> (重装)<br>（下面可能是一些镜像吧……等会边写边看）</li>
+<li><a href="https://www.xitmi.com/" target="_blank" rel="noopener">https://www.xitmi.com/</a></li>
+<li><a href="https://msdn.itellyou.cn" target="_blank" rel="noopener">https://msdn.itellyou.cn</a></li>
+<li><a href="https://www.xitmi.com/2237.html" target="_blank" rel="noopener">https://www.xitmi.com/2237.html</a></li>
+<li><a href="https://www.xitmi.com/2232.html" target="_blank" rel="noopener">https://www.xitmi.com/2232.html</a> （破解的百度云）</li>
+<li><a href="https://www.xitmi.com/2505.html" target="_blank" rel="noopener">https://www.xitmi.com/2505.html</a> （office2019）</li>
+<li><a href="https://www.xitmi.com/4120.html" target="_blank" rel="noopener">https://www.xitmi.com/4120.html</a> （激活工具）</li>
+<li><a href="https://msdn.itellyou.cn/" target="_blank" rel="noopener">https://msdn.itellyou.cn/</a> （windows镜像）</li>
+</ol>
+<h3 id="上面2的视频做的些笔记"><a href="#上面2的视频做的些笔记" class="headerlink" title="(上面2的视频做的些笔记)"></a>(上面2的视频做的些笔记)</h3><p>看视频教程做的笔记）<br>按f12（U盘启动快捷键）<br>uefi</p>
+<p>反正选下面那个<br>第一步给硬盘分区<br>每一次操作都要保存更改<br>ghost 备份<br>浏览、可移动硬盘、<br>找到镜像选择C盘恢复选择分区</p>
+<p>选：我要恢复系统</p>
+<p>CGI备份还原<br>执行<br>选：重启</p>
+<h3 id="实际操作："><a href="#实际操作：" class="headerlink" title="实际操作："></a>实际操作：</h3><p>记得先要把C盘东西被备份（我主要是备份了Programmer、programmer（x86）户、桌面（后面想起来浏览器那些收藏夹没备份，装好后就全没了呜呜呜……，chrome的是可以导出html的后面装好再导入，我后面是找到以前曾导出过一次的html然后导入，能找回一点是一点吧.）)</p>
+<p>然后关机狂按F12（我是联想的）一开始进的好像不是uefi那个，就按F10，然后再来一次，然后界面就可以选了，然后选UEFI那个进去，就到PE了）<br><img src="/.io//b558c0a694d9da7fce376eb6bb603f0.png" alt="进Bios的过程"></p>
+<p>选第三个，然后<br><img src="/.io//595362f8322c714d050ca17d352f255.png" alt="进Bios的过程"><br>这两个好像随便选都没关系</p>
+<p>进PE后，先分盘助手，我当时D盘没空间，我就没给C盘分盘，本来是多想给C分一点的。然后要记得改盘符～<br><img src="/.io//53dc15faa2d07db9abe1531602e9a84.jpg" alt="改盘符"></p>
+<p>然后用windows那个装win系统，第一行找到镜像iso的，下面两行都选C（但是看一个教程说第二行选Z）我不知道没试过，反正选C是可以成功的。</p>
+<p>装完重启就OK啦</p>
+<h4 id="插播-啦啦啦我是教程的搬运工"><a href="#插播-啦啦啦我是教程的搬运工" class="headerlink" title="(插播)啦啦啦我是教程的搬运工~"></a>(插播)啦啦啦我是教程的搬运工~</h4><ol>
+<li>我重装了后，发现文件夹右键没有Git Bash Here了……<br>参考教程：<a href="https://blog.csdn.net/weixin_42357048/article/details/80533571" target="_blank" rel="noopener">https://blog.csdn.net/weixin_42357048/article/details/80533571</a><br>（改点注册表里的东西~还是挺酷的hhh）</li>
+<li>发现在Git Bash里hexo显示command not found……<br>参考教程：<a href="https://blog.csdn.net/kittowang/article/details/56011794" target="_blank" rel="noopener">https://blog.csdn.net/kittowang/article/details/56011794</a><br>（我是改了环境变量那一步就ok了。文章里说在“计算机”右键属性，（Win10）是打开“此电脑”右键“属性”，然后点：高级系统设置，一打开（我看到的页面是在高级下的）右下角可以看到有个环境变量，点它！然后在系统变量里面找到Path，然后点击编辑，然后按照教程里的新建就好啦~<br>）</li>
+</ol>
+<h2 id="hexo博客"><a href="#hexo博客" class="headerlink" title="hexo博客"></a>hexo博客</h2><p>参考教程<a href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html" target="_blank" rel="noopener">https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html</a></p>
+<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><ol>
+<li>发现ssh: connect to host github.com port 22: Connection timed out<br>参考教程：<a href="https://blog.csdn.net/qq_42146613/article/details/82772734" target="_blank" rel="noopener">https://blog.csdn.net/qq_42146613/article/details/82772734</a><br><a href="https://blog.csdn.net/menglinjie/article/details/81115960" target="_blank" rel="noopener">https://blog.csdn.net/menglinjie/article/details/81115960</a></li>
+</ol>
+
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+<div class="card">
+    <div class="card-content">
+        <h3 class="menu-label has-text-centered">Like this article? Support the author with</h3>
+        <div class="buttons is-centered">
+            
+                
+<div class="notification is-danger">
+    You forgot to set the <code>qrcode</code> for Alipay. Please set it in <code>_config.yml</code>.
+</div>
+
+                
+                
+<div class="notification is-danger">
+    You forgot to set the <code>qrcode</code> for Wechat. Please set it in <code>_config.yml</code>.
+</div>
+
+                
+                <!-- Visit https://www.paypal.com/donate/buttons/ to get your donate button -->
+
+<div class="notification is-danger">
+    You forgot to set the <code>business</code> and <code>currency_code</code> for Paypal. Please set it in <code>_config.yml</code>.
+</div>
+
+                
+                
+<div class="notification is-danger">
+    You forgot to set the <code>url</code> Patreon. Please set it in <code>_config.yml</code>.
+</div>
+
+                
+        </div>
+    </div>
+</div>
+
+
+
+<div class="card card-transparent">
+    <div class="level post-navigation is-flex-wrap is-mobile">
+        
+        
+        <div class="level-end">
+            <a class="level level-item has-link-grey  article-nav-next" href="/2019/09/30/hello-world/">
+                <span class="level-item">Hello World</span>
+                <i class="level-item fas fa-chevron-right"></i>
+            </a>
+        </div>
+        
     </div>
 </div>
 
@@ -538,7 +645,7 @@
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="/images/logo.svg" alt="Hexo" height="28">
+                    <img src="/images/logo.svg" alt="装系统" height="28">
                 
                 </a>
                 <p class="is-size-7">
